@@ -1,0 +1,30 @@
+# mise configuration for WoW Emulation Rust projects
+# https://mise.jdx.dev/configuration.html
+
+[tools]
+# ── Toolchain ──────────────────────────────────
+rust = "stable"
+node = "24"
+
+# ── Build tools ────────────────────────────────
+"cargo:cross" = "latest"
+"cargo:cargo-binstall" = "latest"
+"cargo:wasm-pack" = "latest"
+
+# ── Testing and coverage ──────────────────────
+"cargo:cargo-nextest" = "latest"
+"cargo:cargo-llvm-cov" = "latest"
+
+# ── Linting and auditing ─────────────────────
+"cargo:cargo-deny" = "latest"
+"npm:markdownlint-cli" = "latest"
+actionlint = "latest"
+
+# ── Documentation ─────────────────────────────
+"cargo:mdbook" = "latest"
+"cargo:mdbook-mermaid" = "latest"
+
+# ── Profiling ─────────────────────────────────
+"cargo:flamegraph" = "latest"
+"cargo:inferno" = "latest"
+protobuf = "latest"
