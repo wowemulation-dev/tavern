@@ -7,7 +7,7 @@ digital preservation of retired World of Warcraft Classic client builds.
 
 [![Discord](https://img.shields.io/discord/1394228766414471219?logo=discord&style=flat-square)](https://discord.gg/Jj4uWy3DGP)
 [![License](https://img.shields.io/badge/license-AGPL--3.0-blue.svg)](LICENSE)
-[![Status](https://img.shields.io/badge/status-early_development-red.svg)]
+![Status](https://img.shields.io/badge/status-early_development-red.svg)
 
 </div>
 
